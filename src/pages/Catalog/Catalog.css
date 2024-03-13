@@ -1,0 +1,147 @@
+
+
+.catalogPage__container {
+  margin-bottom: 97px;
+}
+
+.catalogPage__box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.catalog__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.catalog__item {
+  width: 270px;
+  margin: 10px;
+}
+
+.catalogProduct__container {
+  position: relative;
+}
+
+.catalogProductPhoto__container {
+  margin-bottom: 10px;
+}
+
+.catalogProductPhoto {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 1px 12px 0px #0000000F;
+  box-sizing: border-box;
+}
+
+.catalogProductPhoto__img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.catalogProductFullName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.catalogProductPrice__container {
+  min-width: 150px;
+  margin-bottom: 30px;
+}
+
+.catalogProductPrice__actual {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.catalogProductPrice__old {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  color: #7A7A7A;
+  text-decoration: line-through;
+}
+
+.catalog__action {
+  text-align: center;
+  padding-bottom: 96px;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.catalog__action-btn { 
+  border: none;
+  width: 192px;
+  height: 50px;
+  background: #FEDC5A;
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000000;
+}
+
+.catalog__action-btn:hover {
+  border: 2px solid #FEDC5A;
+  background: white;
+  cursor: pointer;
+}
+
+.catalogProductBasket__container {
+  display: flex;
+  justify-content: flex-end;
+  order: 4;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: none;
+}
+
+.catalog__item:hover .catalogProductBasket__container {
+  display: block;
+}
+
+.catalogProductBasket__add {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #FEDC5A;
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+
+  .catalog__item {
+    width: 240px;
+  }
+
+}
+
+@media (max-width: 660px) {
+
+  .catalog__item {
+    width: 168px;
+  }
+
+}

@@ -49,6 +49,7 @@ import VacanciesPage from './pages/VacanciesPage/VacanciesPage';
 import OpenVacanciesPage from './pages/VacanciesPage/OpenVacanciesPage/OpenVacanciesPage';
 
 import ProductCard from './pages/ProductCard/ProductCard';
+import Catalog from './pages/Catalog/Catalog.jsx';
 
 
 import './global.css';
@@ -117,6 +118,7 @@ function App() {
                                 <Route path="/services/licenses" element={<LicensesPage/>}/>
 
                                 <Route path="/product" element={<ProductCard />}/>
+                                <Route path="/catalog" element={<Catalog />}/>
 
                             </Routes>
                         </main>

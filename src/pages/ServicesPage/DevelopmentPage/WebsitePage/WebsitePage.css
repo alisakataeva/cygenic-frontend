@@ -1,0 +1,31 @@
+.developmentPage__container {
+  width: 100%;
+}
+
+.developmentPage__box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.websitePage__header-banner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .websitePage__header-banner{
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 660px) {
+  .websitePage__header-banner {
+    font-size: 32px;
+  }
+}

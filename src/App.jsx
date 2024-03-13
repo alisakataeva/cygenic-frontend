@@ -48,6 +48,8 @@ import LicensesPage from './pages/ServicesPage/LicensesPage/LicensesPage';
 import VacanciesPage from './pages/VacanciesPage/VacanciesPage';
 import OpenVacanciesPage from './pages/VacanciesPage/OpenVacanciesPage/OpenVacanciesPage';
 
+import ProductCard from './pages/ProductCard/ProductCard';
+
 
 import './global.css';
 import {MainProvider} from "./providers/main/mainProvider.jsx";
@@ -113,6 +115,8 @@ function App() {
                                 <Route path="/services/development/website" element={<WebsitePage/>}/>
 
                                 <Route path="/services/licenses" element={<LicensesPage/>}/>
+
+                                <Route path="/product" element={<ProductCard />}/>
 
                             </Routes>
                         </main>

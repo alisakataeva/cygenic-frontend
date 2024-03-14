@@ -133,6 +133,22 @@ const Header = ({data1}) => {
                       Портфолио
                     </Link>
                 </li>
+                <li className={`menu__item ${activeMenu === 'catalog' ? 'active' : ''}`}>
+                    <Link
+                      onClick={(e) => {
+                        setActiveMenu('catalog');
+                        setActiveMenuLink('/catalog');
+
+                        if (widthScreen <= 660) {
+                          setIsMenuOpen(false);
+                        }
+                      }}
+                      to="/catalog"
+                      className="menu__link"
+                    >
+                      Каталог
+                    </Link>
+                </li>
                 <li className={`menu__item ${activeMenu === 'about' ? 'active' : ''}`}>
                   <Link
                     onClick={(e) => {

@@ -22,12 +22,12 @@ function rentSolutions({rentSolutions}) {
 
                     <div className={item.name == 'Pro' ? 'rentSolutions__hover-bg active' : 'rentSolutions__hover-bg'}>
                         <div className='rentSolutions__name'>{item.name}</div>
-                        <div className='rentSolutions__priceOld'>{item.priceOld}<span className='rentSolutions__span'> руб / год</span>
+                        <div className='rentSolutions__priceOld'>{item.priceOld}<span className='rentSolutions__span'> ₽ / год</span>
                         </div>
-                        <div className='rentSolutions__price'>{item.price}<span className='rentSolutions__span'> руб / год</span>
+                        <div className='rentSolutions__price'>{item.price}<span className='rentSolutions__span'> ₽ / год</span>
                         </div>
                         <div className='rentSolutions__price-month'>{item.priceMonth}<span
-                            className='rentSolutions__span'> руб / мес</span></div>
+                            className='rentSolutions__span'> ₽ / мес</span></div>
                     </div>
 
                     <div className='rentSolutions__options-box'>
@@ -90,11 +90,11 @@ function rentSolutions({rentSolutions}) {
                                 className={item.name == 'Pro' ? 'rentSolutions__hover-bg active' : 'rentSolutions__hover-bg'}>
                                 <div className='rentSolutions__name'>{item.name}</div>
                                 <div className='rentSolutions__priceOld'>{item.priceOld}<span
-                                    className='rentSolutions__span'> руб / год</span></div>
-                                <div className='rentSolutions__price'>{item.price}<span className='rentSolutions__span'> руб / год</span>
+                                    className='rentSolutions__span'> ₽ / год</span></div>
+                                <div className='rentSolutions__price'>{item.price}<span className='rentSolutions__span'> ₽ / год</span>
                                 </div>
                                 <div className='rentSolutions__price-month'>{item.priceMonth}<span
-                                    className='rentSolutions__span'> руб / мес</span></div>
+                                    className='rentSolutions__span'> ₽ / мес</span></div>
                             </div>
 
                             <div className='rentSolutions__options-box'>

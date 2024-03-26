@@ -36,7 +36,7 @@ function Contacts(props) {
 
             <div className='contacts__icon-box'>
                 <NavLink to="https://vk.com/cygenic_official"><img className='contacts__icon' src={VkIcon} alt={'Icon vk'}/></NavLink>
-                <NavLink to="https://t.me/YourUsername"><img className='contacts__icon' src={TelegramIcon} alt={'Icon telegram'}/></NavLink>
+                <NavLink to="https://t.me/rm_yuldashev"><img className='contacts__icon' src={TelegramIcon} alt={'Icon telegram'}/></NavLink>
             </div>
 
         </>
